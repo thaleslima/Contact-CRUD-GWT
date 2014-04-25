@@ -1,0 +1,55 @@
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+
+#contactListing table
+{
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#contactListing table>thead>tr>th,
+#contactListing table>tbody>tr>th,
+#contactListing table>tfoot>tr>th, 
+#contactListing table>thead>tr>td, 
+#contactListing table>tbody>tr>td,
+#contactListing table>tfoot>tr>td {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+
+#contactListing  tr:hover > td,
+#contactListing  tr:hover > th {
+  background-color: #f5f5f5;
+}
+
+#contatoForm
+{
+	padding-top: 20px;
+}
+
+
+#contactListing
+{
+	padding-top: 20px;
+}
+
+#contatoStatus{
+	margin-bottom: 20px;
+}
+
+.container2
+{
+	width: 800px;
+	margin: auto;
+}
